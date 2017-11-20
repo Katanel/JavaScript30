@@ -1,0 +1,25 @@
+body {
+    background-color: #499cc2;
+}
+
+.clock {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.clock-face {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.hand {
+    width: 4px;
+    height: 30px;
+    background-color: black;
+    transform-origin: 100%;
+}
