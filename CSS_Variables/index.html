@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CSS Varibles</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <h2>
+        Updating CSS variables with
+        <span class="h1">JS</span>
+    </h2>
+    <div class='controls'>
+        <label for='spacing'>Spacing :</label>
+        <input type='range' name='spacing' min='10' max='200' value='10' data-sizing='px'>
+        <label for='spacing'>Blur :</label>
+        <input type='range' name='blur' min='0' max='25' value='0' data-sizing='px'>
+        <label>Color : </label>
+        <input type='color' name='base' value='#99E1D9'>
+    </div>
+    <img src='https://vignette.wikia.nocookie.net/legomessageboards/images/a/aa/Hd-wallpaper-of-cute-cat-hd-wallpapers.jpg/revision/latest/scale-to-width-down/640?cb=20160421110237'>
+
+    <script src="js/index.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
